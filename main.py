@@ -60,8 +60,6 @@ def run_hazel():
         talk(info_place)
     elif 'joke' in command:
         talk(pyjokes.get_joke())
-    elif 'who built you' or 'project' in command:
-        talk('I was developed by purva, shirsh and harshvardhan of electronics and communication engineering, m i t world peace university, as their final year project in the year 2022')
     else:
         talk('Please say the command again.')
 
